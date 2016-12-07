@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>864490BB-D6FC-49C3-BE9C-1A4C38971464</string>
+	<key>IDESourceControlProjectName</key>
+	<string>sbSuanshu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8549adea-c2a2-3a42-a6e3-8bb089dd343f</key>
+		<string>http://192.168.1.151:8080/svn/math</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>sbSuanshu/sbSuanshu.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8549adea-c2a2-3a42-a6e3-8bb089dd343f</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8549adea-c2a2-3a42-a6e3-8bb089dd343f</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8549adea-c2a2-3a42-a6e3-8bb089dd343f</string>
+			<key>IDESourceControlWCCName</key>
+			<string>math</string>
+		</dict>
+	</array>
+</dict>
+</plist>

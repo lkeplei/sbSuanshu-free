@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  sbSuanshu
+
+  Created by hou guanhua on 13-5-30.
+  Copyright (c) 2013年 hou guanhua. All rights reserved.
+*/
+"zuhe1"="学龄前·标准";
+"zuhe2"="学龄前·进阶";
+"zuhe3"="1年级上·标准";
+"zuhe4"="1年级上·进阶";
+"zuhe5"="1年级下·标准";
+"zuhe6"="1年级下·进阶";
+"zuhe7"="2年级上·标准";
+"zuhe8"="2年级上·进阶";
+"zuhe9"="2年级下·标准";
+"zuhe10"="2年级下·进阶";
+"zuhe11"="全年龄·标准";
+"zuhe12"="全年龄·进阶";
+
+"mode1"="两个数";
+"mode2"="三个数";
+"mode3"="混合";
+
+"Purchase"="购买：购买后开启所有功能，并去除广告。请问您是否愿意花费￥6.00购买我们的应用？";
+
+"Cancel"="取消";
+"OK"="确定";
+"CONFIRM"="确 定";
+
+"Restore"="恢复";
+
+"RestoreSuccess"="恢复成功";
+"RestoreFail"="恢复失败";
+"PurchaseSuccess"="购买成功";
+"PurchaseFail"="购买失败";
+
+"statisticsFastSel" = "快速选择";
+"statisticsSelect" = "请选择统计周期";
+"statisticsFastDay" = "最近%zd天";

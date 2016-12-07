@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  sbSuanshu
+
+  Created by hou guanhua on 13-5-30.
+  Copyright (c) 2013年 hou guanhua. All rights reserved.
+*/
+"zuhe1"="Preschool Std.";
+"zuhe2"="Preschool Adv.";
+"zuhe3"="Grade 1-1st Std.";
+"zuhe4"="Grade 1-1st Adv.";
+"zuhe5"="Grade 1-2nd Std.";
+"zuhe6"="Grade 1-2nd Adv.";
+"zuhe7"="Grade 2-1st Std.";
+"zuhe8"="Grade 2-1st Adv.";
+"zuhe9"="Grade 2-2nd Std.";
+"zuhe10"="Grade 2-2nd Adv.";
+"zuhe11"="All Ages Std.";
+"zuhe12"="All Ages Adv.";
+
+"mode1"="2 Num";
+"mode2"="3 Num";
+"mode3"="Mixed";
+
+"Purchase"="Purchase: All functions will be opened and ads will be removed after purchase. Do you want to spend $0.99 on the app？";
+
+"Cancel"="Cancel";
+"OK"="OK";
+"CONFIRM"="OK";
+
+"Restore"="Restore";
+
+"RestoreSuccess"="Restore Success";
+"RestoreFail"="Restore Fail";
+"PurchaseSuccess"="Purchase Success";
+"PurchaseFail"="Purchase Fail";
+
+"statisticsFastSel" = "Quick selection";
+"statisticsSelect" = "Please select the period";
+"statisticsFastDay" = "Last %zd days";
