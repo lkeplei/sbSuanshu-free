@@ -301,11 +301,15 @@
 - (GADBannerView *)bannerView {
     if (_bannerView == nil) {
         _bannerView = [[GADBannerView alloc] initWithAdSize:kGADAdSizeLeaderboard];
-        _bannerView.width = self.view.width;
-
-        _bannerView.originY = self.view.frame.size.height - _bannerView.height;
         _bannerView.adUnitID = @"ca-app-pub-3782605513789953/6327571427";
         _bannerView.rootViewController = self;
+        
+        CGFloat width = self.view.frame.size.width;
+        CGFloat height = self.view.frame.size.height;
+        CGFloat offsetX = 0.16 * width;
+        _bannerView.size = CGSizeMake(width - offsetX * 2 , 0.1 * height);
+        _bannerView.originY = height - _bannerView.height;
+        _bannerView.originX = offsetX;
     }
     return _bannerView;
 }
