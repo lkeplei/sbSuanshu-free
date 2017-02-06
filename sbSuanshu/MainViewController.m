@@ -70,7 +70,7 @@
 
 - (void)showFullAD {
     //显示全屏广告
-    _interstitial = [[GADInterstitial alloc] initWithAdUnitID:@"ca-app-pub-3782605513789953/4711237420"];
+    _interstitial = [[GADInterstitial alloc] initWithAdUnitID:@"ca-app-pub-3782605513789953/1757771024"];
     _interstitial.delegate = self;
     
     [_interstitial loadRequest:[GADRequest request]];
