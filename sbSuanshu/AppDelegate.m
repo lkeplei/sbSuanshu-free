@@ -37,8 +37,6 @@
         bFreeVersion = NO;
     }
     
-    bFreeVersion = YES;     //测试用的，永远有广告
-    
     //init iap manager.
     [InAppPurchaseManager initInAppPurchase];
     
