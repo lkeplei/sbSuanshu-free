@@ -259,7 +259,7 @@
 }
 
 - (void)hideAD {
-    ((AppDelegate*)[UIApplication sharedApplication].delegate).bFreeVersion = NO;
+    ((AppDelegate*)[UIApplication sharedApplication].delegate).bFreeVersion = YES;      //测试用的，永远有广告
     [CHKeychain save:KEY_USER_purchased data:[NSNumber numberWithBool:YES]];
 
     //隐藏全屏广告
