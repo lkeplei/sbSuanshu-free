@@ -484,7 +484,7 @@
 
 #pragma mark - baidu delegate
 - (NSString *)publisherId {
-    return @"e80ce73d"; //@"your_own_app_id";注意，iOS和android的app请使用不同的app ID
+    return @"a8ced0f0"; //@"your_own_app_id";注意，iOS和android的app请使用不同的app ID
 }
 
 - (BOOL)enableLocation {
@@ -522,7 +522,7 @@
         
         //使用嵌入广告的方法实例。
         _sharedAdView = [[BaiduMobAdView alloc] init];
-        _sharedAdView.AdUnitTag = @"3342163";
+        _sharedAdView.AdUnitTag = @"3609630";
         _sharedAdView.AdType = BaiduMobAdViewTypeBanner;
         CGFloat bannerHeight = 0.1 * kScreenHeight;
         CGFloat offsetX = 0.18 * kScreenHeight;

@@ -10,8 +10,6 @@
 #import "CHKeychain.h"
 #import "InAppPurchaseManager.h"
 
-#import "MobClick.h"
-
 @implementation AppDelegate
 
 @synthesize tiku, bFreeVersion;
@@ -39,9 +37,6 @@
     
     //init iap manager.
     [InAppPurchaseManager initInAppPurchase];
-    
-    //友盟统计
-    [MobClick startWithAppkey:@"5283677e56240b500c03159b"];
     
     return YES;
 }

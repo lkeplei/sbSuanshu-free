@@ -29,8 +29,6 @@
 		04FFDDA21C088C1000E09FD8 /* UIView+KenUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFDDA11C088C1000E09FD8 /* UIView+KenUIView.m */; };
 		04FFDDA51C088F4A00E09FD8 /* MyWrongV.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFDDA41C088F4A00E09FD8 /* MyWrongV.m */; };
 		04FFDDA81C088F7B00E09FD8 /* WrongStatisticsV.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFDDA71C088F7B00E09FD8 /* WrongStatisticsV.m */; };
-		6C184F6D183DE3A10025BA84 /* libMobClickLibrary_armv6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7312071834B79F00B541F3 /* libMobClickLibrary_armv6.a */; };
-		6C184F6E183DE3A10025BA84 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7312061834B79F00B541F3 /* libMobClickLibrary.a */; };
 		BB08EC841741D0390093850C /* 0.1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08EC761741D0390093850C /* 0.1.png */; };
 		BB08EC851741D0390093850C /* 0.2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08EC781741D0390093850C /* 0.2.png */; };
 		BB08EC861741D0390093850C /* 0.3.png in Resources */ = {isa = PBXBuildFile; fileRef = BB08EC7A1741D0390093850C /* 0.3.png */; };
@@ -763,9 +761,6 @@
 		BB689B711839AC2F00858A0A /* icon-72~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72~ipad.png"; sourceTree = "<group>"; };
 		BB689B721839AC2F00858A0A /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
 		BB689B731839AC2F00858A0A /* icon-72@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x~ipad.png"; sourceTree = "<group>"; };
-		BB7312061834B79F00B541F3 /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
-		BB7312071834B79F00B541F3 /* libMobClickLibrary_armv6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary_armv6.a; sourceTree = "<group>"; };
-		BB7312081834B79F00B541F3 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
 		BB87EC4417462508007BF51D /* tiku.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tiku.txt; sourceTree = "<group>"; };
 		BB8B0441175611FA0014AED7 /* 6.1.1.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.1.1.1.png; sourceTree = "<group>"; };
 		BB8B04441756127A0014AED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/6.1.png; sourceTree = "<group>"; };
@@ -942,8 +937,6 @@
 				04AEEE6C1AC6508200CC18FE /* EventKitUI.framework in Frameworks */,
 				BB4BB15C17602E1B0033E954 /* EventKit.framework in Frameworks */,
 				04AEEE6A1AC6504900CC18FE /* CoreText.framework in Frameworks */,
-				6C184F6D183DE3A10025BA84 /* libMobClickLibrary_armv6.a in Frameworks */,
-				6C184F6E183DE3A10025BA84 /* libMobClickLibrary.a in Frameworks */,
 				BB4BB53E176046BB0033E954 /* AdSupport.framework in Frameworks */,
 				BB4BB53C176046610033E954 /* StoreKit.framework in Frameworks */,
 				BB4BB53A176045CB0033E954 /* Social.framework in Frameworks */,
@@ -1251,7 +1244,6 @@
 				04FFDDA11C088C1000E09FD8 /* UIView+KenUIView.m */,
 				04FFDD9D1C088AA300E09FD8 /* KenUtils.h */,
 				04FFDD9E1C088AA300E09FD8 /* KenUtils.m */,
-				BB7312051834B79F00B541F3 /* UMAnalytics_Sdk_2.2.1.OpenUDID */,
 				BB19CD7D1740FBDA008E3A88 /* AppDelegate.h */,
 				BB19CD7E1740FBDA008E3A88 /* AppDelegate.m */,
 				BBC4A78C174DF62600AF751B /* FDGraphView */,
@@ -1593,16 +1585,6 @@
 				BBE31EAE17535F220011EEC0 /* InfoPlist.strings */,
 			);
 			name = zh;
-			sourceTree = "<group>";
-		};
-		BB7312051834B79F00B541F3 /* UMAnalytics_Sdk_2.2.1.OpenUDID */ = {
-			isa = PBXGroup;
-			children = (
-				BB7312061834B79F00B541F3 /* libMobClickLibrary.a */,
-				BB7312071834B79F00B541F3 /* libMobClickLibrary_armv6.a */,
-				BB7312081834B79F00B541F3 /* MobClick.h */,
-			);
-			path = UMAnalytics_Sdk_2.2.1.OpenUDID;
 			sourceTree = "<group>";
 		};
 		BBA21FCB1744B44D0083B23C /* Model */ = {
